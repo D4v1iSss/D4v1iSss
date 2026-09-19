@@ -1,4 +1,6 @@
 (() => {
+  document.documentElement.classList.add('js-enabled');
+
   const menuButton = document.getElementById('menu-btn');
   const navLinks = document.getElementById('nav-links');
   const musicToggleButton = document.getElementById('music-toggle-button');

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>D4v1iS | About</title>
+    <meta name="description" content="About D4v1iS — skills, approach, and current learning journey." />
+    <meta property="og:title" content="D4v1iS | About" />
+    <meta property="og:description" content="Learn about the creative and technical direction of D4v1iS." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://d4v1is.me/about.html" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="D4v1iS | About" />
+    <meta name="twitter:description" content="Skills and journey overview for D4v1iS." />
+    <meta name="theme-color" content="#16052d" />
+    <link rel="canonical" href="https://d4v1is.me/about.html" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="progress-bar" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <div class="container nav">
+        <a class="brand" href="index.html">D4v1iS</a>
+        <button class="menu-btn" type="button" aria-expanded="false" aria-controls="nav-links" id="menu-btn">Menu</button>
+        <nav aria-label="Primary">
+          <div class="nav-links" id="nav-links" data-open="false">
+            <a href="index.html">Home</a>
+            <a href="about.html" aria-current="page">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="container">
+      <section id="about-intro">
+        <p class="eyebrow reveal">About</p>
+        <h1 class="reveal">Designing with intention, building with consistency.</h1>
+        <p class="lead reveal">
+          D4v1iS focuses on practical frontend delivery: clear structure, responsive interfaces, and continuously improving user experience through iteration.
+        </p>
+      </section>
+
+      <section id="skills">
+        <h2 class="reveal">Skills and technologies</h2>
+        <div class="grid">
+          <article class="card reveal">
+            <h3>Frontend foundations</h3>
+            <p>Semantic HTML, modern CSS, JavaScript interactions, responsive layouts, and accessibility-conscious UI work.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Delivery workflow</h3>
+            <p>Git/GitHub based iteration, project polishing, and static deployment through GitHub Pages.</p>
+          </article>
+          <article class="card reveal">
+            <h3>Portfolio operations</h3>
+            <p>Maintaining factual project records, clear narrative sections, and editable placeholders for future growth.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="journey">
+        <h2 class="reveal">Journey timeline</h2>
+        <div class="story-grid">
+          <article class="story-panel sticky reveal">
+            <p class="eyebrow">Current direction</p>
+            <h3>Quality over hype</h3>
+            <p>
+              The objective is to ship reliable, polished work and communicate it clearly. This page stays editable so achievements can be added only when factual and complete.
+            </p>
+          </article>
+          <div class="grid">
+            <article class="card reveal">
+              <h3>Present</h3>
+              <p>Improving portfolio fidelity, interaction design, and visual storytelling details.</p>
+            </article>
+            <article class="card reveal">
+              <h3>Near future</h3>
+              <p>Expand project coverage with deeper process notes, architecture details, and live demos where possible.</p>
+            </article>
+            <article class="card reveal">
+              <h3>Editable milestone slot</h3>
+              <p>Add factual experiences, certificates, or verified achievements here when ready.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <nav class="section-indicator" aria-label="Section progress">
+      <a href="#about-intro" aria-current="true"><span class="sr-only">About intro</span></a>
+      <a href="#skills" aria-current="false"><span class="sr-only">Skills</span></a>
+      <a href="#journey" aria-current="false"><span class="sr-only">Journey</span></a>
+    </nav>
+
+    <div class="music-toggle">
+      <button id="music-toggle-button" type="button" aria-expanded="false" aria-controls="music-panel">Music player</button>
+    </div>
+    <aside class="music-panel glass" id="music-panel" data-open="false" aria-label="Spotify music player">
+      <p id="player-status">Loading Spotify player… press play once ready.</p>
+      <iframe
+        id="spotify-player"
+        class="spotify"
+        src="https://open.spotify.com/embed/track/2nWw7VrUn8Ijo45K6WIIna?utm_source=generator"
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+        loading="lazy"
+        title="Spotify player for selected track"
+      ></iframe>
+      <p>
+        Autoplay is limited by browsers and Spotify policies. Use the player controls or
+        <a class="inline-link" href="https://open.spotify.com/track/2nWw7VrUn8Ijo45K6WIIna?si=8f95361fdbb84cdb" target="_blank" rel="noreferrer">Open on Spotify</a>.
+      </p>
+    </aside>
+
+    <footer>
+      <div class="container">
+        <small>© <span data-year></span> D4v1iS. Built as a static multi-page portfolio with semantic HTML, CSS, and JavaScript.</small>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

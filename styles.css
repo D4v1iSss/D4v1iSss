@@ -252,13 +252,13 @@ h2 { font-size: clamp(1.6rem, 3vw, 2.35rem); }
 
 .card p { margin: 0; color: var(--muted); }
 
-.reveal {
+.js-enabled .reveal {
   opacity: 0;
   transform: translateY(24px);
   transition: opacity 520ms ease, transform 520ms ease;
 }
 
-.reveal.is-visible {
+.js-enabled .reveal.is-visible {
   opacity: 1;
   transform: translateY(0);
 }
